@@ -1,5 +1,7 @@
 package net.emanuel.emanumod;
 
+import net.emanuel.emanumod.block.ModBlocks;
+import net.emanuel.emanumod.item.ModItemGroups;
 import net.emanuel.emanumod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +15,8 @@ public class Emanumod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }
