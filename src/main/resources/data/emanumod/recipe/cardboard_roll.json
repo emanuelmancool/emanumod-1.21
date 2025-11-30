@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "ingredients",
+  "key": {
+    "#": {
+      "item": "emanumod:cardboard"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emanumod:cardboard_roll"
+  }
+}
