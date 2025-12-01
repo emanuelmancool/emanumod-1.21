@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GREEN_PAPER_ROLL);
                         entries.add(ModItems.CARDBOARD);
                         entries.add(ModItems.CARDBOARD_ROLL);
+                        entries.add(ModItems.GREEN_PAPER);
                     }).build());
 
 

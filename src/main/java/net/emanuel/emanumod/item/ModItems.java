@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
     public static final Item CARDBOARD_ROLL = registerItem("cardboard_roll", new Item(new Item.Settings()));
+    public static final Item GREEN_PAPER = registerItem("green_paper", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Emanumod.MOD_ID, name), item);
@@ -19,9 +20,6 @@ public class ModItems {
     public static void registerModItems() {
         Emanumod.LOGGER.info("Registering items for " + Emanumod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(CARDBOARD);
-            fabricItemGroupEntries.add(CARDBOARD_ROLL);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {});
     }
 }

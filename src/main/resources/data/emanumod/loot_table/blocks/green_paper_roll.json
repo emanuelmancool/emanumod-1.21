@@ -2,19 +2,29 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "emanumod:cardboard_roll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "emanumod:green_paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }
+          ]
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "emanumod:green_paper_roll"
-        }
-      ],
-      "rolls": 1.0
+      ]
     }
   ]
 }
