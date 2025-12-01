@@ -3,7 +3,7 @@
   "category": "ingredients",
   "key": {
     "#": {
-      "item": "minecraft:green_paper"
+      "item": "emanumod:green_paper"
     },
     "@": {
       "item": "emanumod:cardboard_roll"
