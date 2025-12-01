@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PAPER_ROLL);
                         entries.add(ModBlocks.GREEN_PAPER_ROLL);
+                        entries.add(ModBlocks.GREEN_PAPER_ORE);
                         entries.add(ModItems.CARDBOARD);
                         entries.add(ModItems.CARDBOARD_ROLL);
                         entries.add(ModItems.GREEN_PAPER);

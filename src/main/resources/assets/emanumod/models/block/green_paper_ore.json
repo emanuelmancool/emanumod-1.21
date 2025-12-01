@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "all": "emanumod:block/green_paper_ore"
+  }
+}
