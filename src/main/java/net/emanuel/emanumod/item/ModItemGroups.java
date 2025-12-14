@@ -24,6 +24,8 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_PAPER);
 
                         entries.add(ModItems.CHISEL);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 
