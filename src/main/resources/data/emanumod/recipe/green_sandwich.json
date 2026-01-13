@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredients",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "emanumod:green_paper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emanumod:green_sandwich"
+  }
+}

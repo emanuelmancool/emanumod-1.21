@@ -15,6 +15,8 @@ public class ModItems {
     public static final Item GREEN_PAPER = registerItem("green_paper", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item GREEN_SANDWICH = registerItem("green_sandwich", new Item(new Item.Settings().food(ModFoodComponents.GREEN_SANDWICH)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Emanumod.MOD_ID, name), item);

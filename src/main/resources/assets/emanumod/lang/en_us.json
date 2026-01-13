@@ -3,11 +3,12 @@
   "item.emanumod.cardboard_roll": "Cardboard Roll",
   "item.emanumod.green_paper": "Green Paper",
   "item.emanumod.chisel": "Chisel",
+  "item.emanumod.green_sandwich": "Green Paper Sandwich",
 
   "block.emanumod.paper_roll": "Paper Roll",
   "block.emanumod.green_paper_roll": "Green Paper Roll",
   "block.emanumod.green_paper_ore": "Green Paper in Stone",
-  "block.emanumod.magic_block": "Magical Green Paper",
+  "block.emanumod.magic_block": "Green Paper Block of Conversion",
 
-  "itemgroup.emanumod.cardboard_items": "Cardboard Items and Blocks"
+  "itemgroup.emanumod.cardboard_items": "Green Items And Blocks"
 }
