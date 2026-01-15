@@ -10,5 +10,8 @@
   "block.emanumod.green_paper_ore": "Green Paper in Stone",
   "block.emanumod.magic_block": "Green Paper Block of Conversion",
 
-  "itemgroup.emanumod.cardboard_items": "Green Items And Blocks"
+  "itemgroup.emanumod.cardboard_items": "Green Items And Blocks",
+
+  "tooltip.emanumod.magic_block": "This block is §aMAGICALLY GREEN§r",
+  "tooltip.emanumod.green_paper": "VERY, very §bversatile§r"
 }
