@@ -1,0 +1,4 @@
+// 1.21	2026-01-16T23:47:08.0450122	Emanumod/Tags for minecraft:block
+cd48bae96515b1622499d07422d136145f8eee26 data\minecraft\tags\block\needs_diamond_tool.json
+97731d01503ad42defade2ab0662354992dc2cb2 data\minecraft\tags\block\needs_iron_tool.json
+6048eba80a4e5ff75a56411d56eebdedb7115f9f data\minecraft\tags\block\mineable\pickaxe.json

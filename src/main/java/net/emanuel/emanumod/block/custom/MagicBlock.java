@@ -1,7 +1,6 @@
 package net.emanuel.emanumod.block.custom;
 
 import net.emanuel.emanumod.item.ModItems;
-import net.emanuel.emanumod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -38,6 +37,8 @@ public class MagicBlock extends Block {
         if(entity instanceof ItemEntity itemEntity) {
             if(itemEntity.getStack().getItem() == ModItems.GREEN_PAPER) {
                 itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
+            } else if (itemEntity.getStack().getItem() == Items.IRON_INGOT) {
+                itemEntity.setStack(new ItemStack(ModItems.GREEN_IRON_INGOT, itemEntity.getStack().getCount()));
             }
         }
 

@@ -19,6 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
         blockStateModelGenerator.registerSingleton(ModBlocks.PAPER_ROLL, textureMap1, Models.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.GREEN_PAPER_ROLL, textureMap2, Models.CUBE_COLUMN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_IRON_BLOCK);
     }
 
     @Override
@@ -28,6 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CARDBOARD_ROLL, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREEN_IRON_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREEN_IRON_NUGGET, Models.GENERATED);
     }
 
     TextureMap textureMap1 = new TextureMap()

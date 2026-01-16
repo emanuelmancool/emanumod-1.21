@@ -4,11 +4,14 @@
   "item.emanumod.green_paper": "Green Paper",
   "item.emanumod.chisel": "Chisel",
   "item.emanumod.green_sandwich": "Green Paper Sandwich",
+  "item.emanumod.green_iron_ingot": "Green Iron Ingot",
+  "item.emanumod.green_iron_nugget": "Green Iron Nugget",
 
   "block.emanumod.paper_roll": "Paper Roll",
   "block.emanumod.green_paper_roll": "Green Paper Roll",
   "block.emanumod.green_paper_ore": "Green Paper in Stone",
   "block.emanumod.magic_block": "Green Paper Block of Conversion",
+  "block.emanumod.green_iron_block": "Green Iron Block",
 
   "itemgroup.emanumod.cardboard_items": "Green Items And Blocks",
 

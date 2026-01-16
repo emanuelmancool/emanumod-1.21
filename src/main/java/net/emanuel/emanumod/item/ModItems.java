@@ -15,8 +15,7 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 
 public class ModItems {
-    public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
-    public static final Item CARDBOARD_ROLL = registerItem("cardboard_roll", new Item(new Item.Settings()));
+
     public static final Item GREEN_PAPER = registerItem("green_paper", new Item(new Item.Settings()){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -24,6 +23,11 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+
+    public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
+    public static final Item CARDBOARD_ROLL = registerItem("cardboard_roll", new Item(new Item.Settings()));
+    public static final Item GREEN_IRON_INGOT = registerItem("green_iron_ingot", new Item(new Item.Settings()));
+    public static final Item GREEN_IRON_NUGGET = registerItem("green_iron_nugget", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item GREEN_SANDWICH = registerItem("green_sandwich", new Item(new Item.Settings().food(ModFoodComponents.GREEN_SANDWICH)));

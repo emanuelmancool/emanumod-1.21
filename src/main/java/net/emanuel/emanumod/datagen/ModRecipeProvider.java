@@ -87,5 +87,41 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.PAPER_ROLL), conditionsFromItem(ModBlocks.PAPER_ROLL))
                 .criterion(hasItem(Items.GREEN_DYE), conditionsFromItem(Items.GREEN_DYE))
                 .offerTo(recipeExporter, Identifier.of(Emanumod.MOD_ID, "green_paper_roll_alt"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GREEN_IRON_BLOCK, 1)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_IRON_NUGGET, 9)
+                .input(ModItems.GREEN_IRON_INGOT)
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_IRON_INGOT, 1)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .input(ModItems.GREEN_IRON_NUGGET)
+                .criterion(hasItem(ModItems.GREEN_IRON_NUGGET), conditionsFromItem(ModItems.GREEN_IRON_NUGGET))
+                .offerTo(recipeExporter, Identifier.of(Emanumod.MOD_ID, "green_iron_ingot_from_nugget"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_IRON_INGOT, 9)
+                .input(ModBlocks.GREEN_IRON_BLOCK)
+                .criterion(hasItem(ModBlocks.GREEN_IRON_BLOCK), conditionsFromItem(ModBlocks.GREEN_IRON_BLOCK))
+                .offerTo(recipeExporter, Identifier.of(Emanumod.MOD_ID, "green_iron_ingot_from_block"));
     }
 }
