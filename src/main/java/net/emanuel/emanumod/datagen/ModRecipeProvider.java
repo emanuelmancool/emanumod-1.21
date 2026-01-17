@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -123,5 +124,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.GREEN_IRON_BLOCK)
                 .criterion(hasItem(ModBlocks.GREEN_IRON_BLOCK), conditionsFromItem(ModBlocks.GREEN_IRON_BLOCK))
                 .offerTo(recipeExporter, Identifier.of(Emanumod.MOD_ID, "green_iron_ingot_from_block"));
+
+        createStairsRecipe(ModBlocks.GREEN_IRON_STAIRS, Ingredient.ofItems(ModItems.GREEN_IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        createDoorRecipe(ModBlocks.GREEN_IRON_DOOR, Ingredient.ofItems(ModItems.GREEN_IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        createTrapdoorRecipe(ModBlocks.GREEN_IRON_TRAPDOOR, Ingredient.ofItems(ModItems.GREEN_IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        createSlabRecipe(RecipeCategory.MISC, ModBlocks.GREEN_IRON_SLAB, Ingredient.ofItems(ModItems.GREEN_IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        offerPressurePlateRecipe(recipeExporter, ModBlocks.GREEN_IRON_PRESSURE_PLATE, ModItems.GREEN_IRON_INGOT);
+
+        createFenceRecipe(ModBlocks.GREEN_IRON_FENCE, Ingredient.ofItems(ModItems.GREEN_IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        createFenceGateRecipe(ModBlocks.GREEN_IRON_FENCE_GATE, Ingredient.ofItems(ModItems.GREEN_IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        offerWallRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.GREEN_IRON_WALL, ModItems.GREEN_IRON_INGOT);
+
+
     }
 }

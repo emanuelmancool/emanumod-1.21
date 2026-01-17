@@ -33,6 +33,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.GREEN_PAPER_ROLL,
                 paperRollHelper(ModItems.GREEN_PAPER, ModItems.CARDBOARD_ROLL));
+
+        addDrop(ModBlocks.GREEN_IRON_STAIRS);
+        addDrop(ModBlocks.GREEN_IRON_PRESSURE_PLATE);
+        addDrop(ModBlocks.GREEN_IRON_WALL);
+        addDrop(ModBlocks.GREEN_IRON_FENCE);
+        addDrop(ModBlocks.GREEN_IRON_FENCE_GATE);
+        addDrop(ModBlocks.GREEN_IRON_DOOR, doorDrops(ModBlocks.GREEN_IRON_DOOR));
+        addDrop(ModBlocks.GREEN_IRON_SLAB, slabDrops(ModBlocks.GREEN_IRON_SLAB));
+        addDrop(ModBlocks.GREEN_IRON_TRAPDOOR);
     }
 
 

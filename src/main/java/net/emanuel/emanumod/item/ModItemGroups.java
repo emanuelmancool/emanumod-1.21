@@ -27,6 +27,15 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_SANDWICH);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.GREEN_IRON_STAIRS);
+                        entries.add(ModBlocks.GREEN_IRON_SLAB);
+                        entries.add(ModBlocks.GREEN_IRON_FENCE);
+                        entries.add(ModBlocks.GREEN_IRON_FENCE_GATE);
+                        entries.add(ModBlocks.GREEN_IRON_DOOR);
+                        entries.add(ModBlocks.GREEN_IRON_TRAPDOOR);
+                        entries.add(ModBlocks.GREEN_IRON_PRESSURE_PLATE);
+                        entries.add(ModBlocks.GREEN_IRON_WALL);
+                        entries.add(ModBlocks.GREEN_IRON_BLOCK);
                     }).build());
 
 

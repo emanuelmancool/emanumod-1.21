@@ -12,6 +12,15 @@
   "block.emanumod.green_paper_ore": "Green Paper in Stone",
   "block.emanumod.magic_block": "Green Paper Block of Conversion",
   "block.emanumod.green_iron_block": "Green Iron Block",
+  "block.emanumod.green_iron_door": "Green Iron Door",
+  "block.emanumod.green_iron_stairs": "Green Iron Stairs",
+  "block.emanumod.green_iron_slab": "Green Iron Slab",
+  "block.emanumod.green_iron_fence": "Green Iron Fence",
+  "block.emanumod.green_iron_fence_gate": "Green Iron Fence Gate",
+  "block.emanumod.green_iron_button": "Green Iron Button",
+  "block.emanumod.green_iron_trapdoor": "Green Iron Trapdoor",
+  "block.emanumod.green_iron_pressure_plate": "Green Iron Pressure Plate",
+  "block.emanumod.green_iron_wall": "Green Iron Wall",
 
   "itemgroup.emanumod.cardboard_items": "Green Items And Blocks",
 
