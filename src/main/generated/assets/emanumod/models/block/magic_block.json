@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_top",
+  "textures": {
+    "side": "emanumod:block/magic_block",
+    "top": "emanumod:block/magic_block_top"
+  }
+}

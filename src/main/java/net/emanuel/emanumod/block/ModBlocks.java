@@ -1,6 +1,7 @@
 package net.emanuel.emanumod.block;
 
 import net.emanuel.emanumod.Emanumod;
+import net.emanuel.emanumod.block.custom.GreenIronLampBlock;
 import net.emanuel.emanumod.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
@@ -52,6 +53,10 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.ACACIA, DoorBlock.Settings.create().strength(6F, 7F).requiresTool().nonOpaque().sounds(BlockSoundGroup.METAL)));
     public static final Block GREEN_IRON_TRAPDOOR = registerBlock("green_iron_trapdoor",
             new TrapdoorBlock(BlockSetType.ACACIA, TrapdoorBlock.Settings.create().strength(6F, 7F).requiresTool().nonOpaque().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block GREEN_IRON_LAMP = registerBlock("green_iron_lamp",
+            new GreenIronLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(GreenIronLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

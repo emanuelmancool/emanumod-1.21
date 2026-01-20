@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "emanumod:green_iron_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "emanumod:green_iron_ingot"
+  }
+}

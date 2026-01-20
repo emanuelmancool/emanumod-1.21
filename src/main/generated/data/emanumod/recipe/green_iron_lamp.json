@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "emanumod:green_paper"
+    },
+    "$": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "@": {
+      "item": "emanumod:green_iron_ingot"
+    }
+  },
+  "pattern": [
+    "@#@",
+    "#$#",
+    "@#@"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emanumod:green_iron_lamp"
+  }
+}

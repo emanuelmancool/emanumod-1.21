@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "emanumod:block/paper_roll_top",
+    "side": "emanumod:block/paper_roll"
+  }
+}

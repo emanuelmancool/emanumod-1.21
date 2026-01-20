@@ -1,6 +1,7 @@
 package net.emanuel.emanumod.datagen;
 
 import net.emanuel.emanumod.block.ModBlocks;
+import net.emanuel.emanumod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -18,11 +19,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.GREEN_PAPER_ORE)
                 .add(ModBlocks.MAGIC_BLOCK)
-                .add(ModBlocks.GREEN_IRON_BLOCK);
+                .add(ModBlocks.GREEN_IRON_BLOCK)
+                .add(ModBlocks.GREEN_IRON_DOOR)
+                .add(ModBlocks.GREEN_IRON_SLAB)
+                .add(ModBlocks.GREEN_IRON_FENCE)
+                .add(ModBlocks.GREEN_IRON_FENCE_GATE)
+                .add(ModBlocks.GREEN_IRON_STAIRS)
+                .add(ModBlocks.GREEN_IRON_TRAPDOOR)
+                .add(ModBlocks.GREEN_IRON_WALL)
+                .add(ModBlocks.GREEN_IRON_LAMP);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.GREEN_PAPER_ORE)
-                .add(ModBlocks.GREEN_IRON_BLOCK);
+                .add(ModBlocks.GREEN_IRON_BLOCK)
+                .add(ModBlocks.GREEN_IRON_DOOR)
+                .add(ModBlocks.GREEN_IRON_SLAB)
+                .add(ModBlocks.GREEN_IRON_FENCE)
+                .add(ModBlocks.GREEN_IRON_FENCE_GATE)
+                .add(ModBlocks.GREEN_IRON_STAIRS)
+                .add(ModBlocks.GREEN_IRON_TRAPDOOR)
+                .add(ModBlocks.GREEN_IRON_WALL)
+                .add(ModBlocks.GREEN_IRON_LAMP);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);
@@ -30,5 +47,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.GREEN_IRON_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.GREEN_IRON_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GREEN_IRON_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GREEN_IRON_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
     }
 }

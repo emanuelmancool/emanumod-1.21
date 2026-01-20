@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "emanumod:block/green_iron_lamp"
+    },
+    "clicked=true": {
+      "model": "emanumod:block/green_iron_lamp_on"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "emanumod:block/green_iron_slab"
+    },
+    "type=double": {
+      "model": "emanumod:block/green_iron_block"
+    },
+    "type=top": {
+      "model": "emanumod:block/green_iron_slab_top"
+    }
+  }
+}

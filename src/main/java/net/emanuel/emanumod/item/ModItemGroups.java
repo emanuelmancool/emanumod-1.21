@@ -19,14 +19,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PAPER_ROLL);
                         entries.add(ModBlocks.GREEN_PAPER_ROLL);
                         entries.add(ModBlocks.GREEN_PAPER_ORE);
+                        entries.add(ModBlocks.GREEN_IRON_LAMP);
+
                         entries.add(ModItems.CARDBOARD);
                         entries.add(ModItems.CARDBOARD_ROLL);
                         entries.add(ModItems.GREEN_PAPER);
+
+                        entries.add(ModItems.GREEN_IRON_SWORD);
+                        entries.add(ModItems.GREEN_IRON_PICKAXE);
+                        entries.add(ModItems.GREEN_IRON_SHOVEL);
+                        entries.add(ModItems.GREEN_IRON_AXE);
+                        entries.add(ModItems.GREEN_IRON_HOE);
 
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.GREEN_SANDWICH);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
                         entries.add(ModBlocks.GREEN_IRON_STAIRS);
                         entries.add(ModBlocks.GREEN_IRON_SLAB);
                         entries.add(ModBlocks.GREEN_IRON_FENCE);

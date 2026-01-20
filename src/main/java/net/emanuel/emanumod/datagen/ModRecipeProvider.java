@@ -61,6 +61,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GREEN_PAPER), conditionsFromItem(ModItems.GREEN_PAPER))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.GREEN_IRON_LAMP)
+                .pattern("@#@")
+                .pattern("#$#")
+                .pattern("@#@")
+                .input('#', ModItems.GREEN_PAPER)
+                .input('@', ModItems.GREEN_IRON_INGOT)
+                .input('$', Items.REDSTONE_LAMP)
+                .criterion(hasItem(Items.REDSTONE_LAMP), conditionsFromItem(Items.REDSTONE_LAMP))
+                .criterion(hasItem(ModItems.GREEN_PAPER), conditionsFromItem(ModItems.GREEN_PAPER))
+                .criterion(hasItem(ModItems.GREEN_IRON_INGOT), conditionsFromItem(ModItems.GREEN_IRON_INGOT))
+                .offerTo(recipeExporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CARDBOARD, 1)
                 .input(Items.PAPER)
                 .input(Items.PAPER)
@@ -152,7 +164,5 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
 
         offerWallRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.GREEN_IRON_WALL, ModItems.GREEN_IRON_INGOT);
-
-
     }
 }

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    },
+    {
+      "item": "emanumod:green_iron_nugget"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emanumod:green_iron_ingot"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "emanumod:block/green_iron_block",
+    "side": "emanumod:block/green_iron_block",
+    "top": "emanumod:block/green_iron_block"
+  }
+}

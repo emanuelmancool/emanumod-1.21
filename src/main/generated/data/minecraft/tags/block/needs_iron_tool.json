@@ -1,6 +1,14 @@
 {
   "values": [
     "emanumod:green_paper_ore",
-    "emanumod:green_iron_block"
+    "emanumod:green_iron_block",
+    "emanumod:green_iron_door",
+    "emanumod:green_iron_slab",
+    "emanumod:green_iron_fence",
+    "emanumod:green_iron_fence_gate",
+    "emanumod:green_iron_stairs",
+    "emanumod:green_iron_trapdoor",
+    "emanumod:green_iron_wall",
+    "emanumod:green_iron_lamp"
   ]
 }

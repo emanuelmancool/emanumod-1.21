@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "emanumod:green_paper"
+    },
+    "@": {
+      "item": "emanumod:cardboard_roll"
+    }
+  },
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emanumod:green_paper_roll"
+  }
+}
