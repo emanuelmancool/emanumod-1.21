@@ -7,6 +7,7 @@ import net.emanuel.emanumod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -54,6 +55,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GREEN_IRON_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_LEGGINGS));
 
     }
 

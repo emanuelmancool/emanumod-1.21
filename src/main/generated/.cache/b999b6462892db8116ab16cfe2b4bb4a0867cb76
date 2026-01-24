@@ -1,5 +1,6 @@
-// 1.21	2026-01-21T19:11:07.2103125	Emanumod/Tags for minecraft:item
+// 1.21	2026-01-24T17:15:57.6782587	Emanumod/Tags for minecraft:item
 8b8fac6e0977f9ad5cc4da284a30031efff2a958 data\minecraft\tags\item\shovels.json
+60c93c2502c5788e39121fdd928a01b57182687f data\minecraft\tags\item\trimmable_armor.json
 049cfac16bde48b597906f7fb311a3defe025662 data\minecraft\tags\item\pickaxes.json
 5c27718382fc9a08052983779ff1fa28992332ec data\minecraft\tags\item\hoes.json
 1a8bb0cb9314db8ed139aff33dfa3b15a9c0cf56 data\minecraft\tags\item\swords.json

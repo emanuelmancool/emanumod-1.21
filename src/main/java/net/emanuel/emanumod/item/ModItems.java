@@ -52,6 +52,19 @@ public class ModItems {
             new HammerItem(ModToolMaterials.GREEN_IRON, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.GREEN_IRON, 8, -3.2f))));
 
+    public static final Item GREEN_IRON_HELMET = registerItem("green_iron_helmet",
+            new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+    public static final Item GREEN_IRON_CHESTPLATE = registerItem("green_iron_chestplate",
+            new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+    public static final Item GREEN_IRON_BOOTS = registerItem("green_iron_boots",
+            new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+    public static final Item GREEN_IRON_LEGGINGS = registerItem("green_iron_leggings",
+            new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Emanumod.MOD_ID, name), item);
     }

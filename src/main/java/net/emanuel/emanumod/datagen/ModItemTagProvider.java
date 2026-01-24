@@ -25,5 +25,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GREEN_IRON_AXE);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.GREEN_IRON_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.GREEN_IRON_HELMET)
+                .add(ModItems.GREEN_IRON_CHESTPLATE)
+                .add(ModItems.GREEN_IRON_BOOTS)
+                .add(ModItems.GREEN_IRON_LEGGINGS);
     }
 }

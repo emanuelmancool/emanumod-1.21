@@ -1,15 +1,15 @@
-// 1.21	2026-01-21T19:11:07.2133125	Emanumod/Block Loot Tables
-a6ac8c3077563d34e1f45209b37e76539b45ed2d data\emanumod\loot_table\blocks\green_paper_ore.json
+// 1.21	2026-01-24T17:15:57.6812588	Emanumod/Block Loot Tables
 fc9123f3b4c6bbe4a2b8e17d49606b9f072374d0 data\emanumod\loot_table\blocks\paper_roll.json
 0519144b4b58e61d62f2787036c384917a9f047f data\emanumod\loot_table\blocks\green_iron_pressure_plate.json
 968700179a6c05e7cb6808795d2d1831f2a14bea data\emanumod\loot_table\blocks\green_iron_stairs.json
 f37b31ea42ca331687587033a0ea7d386e37d3f6 data\emanumod\loot_table\blocks\green_iron_door.json
 0b429d6071840ae4e313e85cef83f47dbbc0ace7 data\emanumod\loot_table\blocks\green_iron_fence.json
-bdcffb29aa1e24d7fff96125c5e562fd3ecc4869 data\emanumod\loot_table\blocks\green_iron_trapdoor.json
 9eb795662ebc989a6191cd21456db4511a30ccf7 data\emanumod\loot_table\blocks\green_iron_slab.json
-0ede3305729b8740187cf06d5bc904ebf825ead7 data\emanumod\loot_table\blocks\green_iron_lamp.json
 8988271bd20e13d0989474dfda4585512193c33c data\emanumod\loot_table\blocks\green_iron_block.json
-b68fa981f5e3db345b6729e238684300a8cba086 data\emanumod\loot_table\blocks\green_iron_wall.json
 7358ae459f2e4af4e1f274d1aab2b82240359353 data\emanumod\loot_table\blocks\green_iron_fence_gate.json
 5201cb57a18f032f4bd4b84614b63c8313eeb115 data\emanumod\loot_table\blocks\magic_block.json
+a6ac8c3077563d34e1f45209b37e76539b45ed2d data\emanumod\loot_table\blocks\green_paper_ore.json
+bdcffb29aa1e24d7fff96125c5e562fd3ecc4869 data\emanumod\loot_table\blocks\green_iron_trapdoor.json
+0ede3305729b8740187cf06d5bc904ebf825ead7 data\emanumod\loot_table\blocks\green_iron_lamp.json
+b68fa981f5e3db345b6729e238684300a8cba086 data\emanumod\loot_table\blocks\green_iron_wall.json
 1c34d9a273fa53d3964ff599cd6db9e208dd2d37 data\emanumod\loot_table\blocks\green_paper_roll.json
