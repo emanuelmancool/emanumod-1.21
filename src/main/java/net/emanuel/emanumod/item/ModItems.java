@@ -3,6 +3,7 @@ package net.emanuel.emanumod.item;
 import net.emanuel.emanumod.Emanumod;
 import net.emanuel.emanumod.item.custom.ChiselItem;
 import net.emanuel.emanumod.item.custom.HammerItem;
+import net.emanuel.emanumod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -56,7 +57,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
     public static final Item GREEN_IRON_CHESTPLATE = registerItem("green_iron_chestplate",
-            new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
     public static final Item GREEN_IRON_BOOTS = registerItem("green_iron_boots",
             new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
