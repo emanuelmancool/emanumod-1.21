@@ -1,4 +1,4 @@
-// 1.21	2026-01-20T22:35:58.145828	Emanumod/Model Definitions
+// 1.21	2026-01-21T19:11:07.2083127	Emanumod/Model Definitions
 b95be885f50901d29da10f24dcd89dd761661338 assets\emanumod\models\block\green_iron_door_top_right_open.json
 6f287f4953ab25b78a7c478ce193b74380bd3583 assets\emanumod\models\block\green_iron_door_bottom_left_open.json
 a78f9542cc511c18ab93a43ff6816e0dee125e7a assets\emanumod\models\item\green_iron_pickaxe.json
@@ -19,6 +19,7 @@ e57592cb78e03503ec22d921f535976ff7eb0473 assets\emanumod\blockstates\green_iron_
 7973efe38f465a76a4d9d455a172b083190f0c74 assets\emanumod\blockstates\green_iron_lamp.json
 3731c35810be5b73d8be9a9d5db4240b126a430c assets\emanumod\blockstates\green_iron_slab.json
 4c2b28aa6e7f0f0ff77fb2d79f47bc2cfb77877a assets\emanumod\models\block\green_iron_block.json
+8253fa1afe98f9eb4c96d3749801df660da4dcfb assets\emanumod\models\item\green_iron_hammer.json
 1be723cc847f2502ea765620468203d3df5555b7 assets\emanumod\models\block\green_iron_door_top_right.json
 d375c3aedbe8227c5bf2cea068c53fe5732dcf26 assets\emanumod\models\block\green_paper_ore.json
 e1e67ef3bdcf7b149b48a11edf85918b9ce2b5fd assets\emanumod\models\item\green_iron_slab.json
@@ -27,8 +28,8 @@ e2e700f60b8c43689c2fd4341a489663c4520129 assets\emanumod\blockstates\green_iron_
 a98be401b2f09528ab7bf4ad3035ebeeaab76d3c assets\emanumod\blockstates\green_iron_fence.json
 d4f2fc2d7258ab1f39d12221d86b2f8bfce3d40d assets\emanumod\models\item\green_sandwich.json
 acab7a9119c2d32feb40d637e39a273bfd655574 assets\emanumod\models\item\green_iron_pressure_plate.json
-f1151435af7757bc88bd647b5e69d6a45d28e980 assets\emanumod\blockstates\green_paper_ore.json
 46c079c9fd4078741660d621ca5b055785d19e3c assets\emanumod\blockstates\green_iron_pressure_plate.json
+f1151435af7757bc88bd647b5e69d6a45d28e980 assets\emanumod\blockstates\green_paper_ore.json
 0684d8fa14186aab35155a52cb64052fa621e0b4 assets\emanumod\blockstates\green_iron_fence_gate.json
 cab7d42ea46149dd26ea11dcc36b1748f4a60396 assets\emanumod\models\item\green_iron_nugget.json
 f6d21ee90aba3600188fe7aded6ef8d8125e376e assets\emanumod\models\item\green_iron_ingot.json

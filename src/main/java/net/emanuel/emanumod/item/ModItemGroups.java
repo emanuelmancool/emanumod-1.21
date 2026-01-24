@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_IRON_SHOVEL);
                         entries.add(ModItems.GREEN_IRON_AXE);
                         entries.add(ModItems.GREEN_IRON_HOE);
+                        entries.add(ModItems.GREEN_IRON_HAMMER);
 
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.GREEN_SANDWICH);

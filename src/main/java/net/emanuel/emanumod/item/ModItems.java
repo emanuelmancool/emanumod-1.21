@@ -2,6 +2,7 @@ package net.emanuel.emanumod.item;
 
 import net.emanuel.emanumod.Emanumod;
 import net.emanuel.emanumod.item.custom.ChiselItem;
+import net.emanuel.emanumod.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -46,6 +47,10 @@ public class ModItems {
             new HoeItem(ModToolMaterials.GREEN_IRON, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.GREEN_IRON, 0, -3f))));
 
+
+    public static final Item GREEN_IRON_HAMMER = registerItem("green_iron_hammer",
+            new HammerItem(ModToolMaterials.GREEN_IRON, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.GREEN_IRON, 8, -3.2f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Emanumod.MOD_ID, name), item);

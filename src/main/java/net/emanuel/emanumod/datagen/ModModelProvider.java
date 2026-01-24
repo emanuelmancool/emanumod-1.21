@@ -53,6 +53,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GREEN_IRON_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GREEN_IRON_HAMMER, Models.HANDHELD);
 
     }
 
