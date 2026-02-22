@@ -1,0 +1,9 @@
+{
+  "asset_name": "green_iron",
+  "description": {
+    "color": "#6BEB7C",
+    "translate": "trim_material.emanumod.green_iron"
+  },
+  "ingredient": "emanumod:green_iron_ingot",
+  "item_model_index": 0.7
+}

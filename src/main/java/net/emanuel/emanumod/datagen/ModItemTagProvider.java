@@ -31,5 +31,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GREEN_IRON_CHESTPLATE)
                 .add(ModItems.GREEN_IRON_BOOTS)
                 .add(ModItems.GREEN_IRON_LEGGINGS);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.GREEN_IRON_INGOT);
+
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.E_SMITHING_TEMPLATE);
     }
 }

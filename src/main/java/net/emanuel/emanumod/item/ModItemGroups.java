@@ -16,14 +16,16 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PAPER_ROLL))
                     .displayName(Text.translatable("itemgroup.emanumod.cardboard_items"))
                     .entries((displayContext, entries) -> {
+                        // PAPER ITEMS AND BLOCKS
                         entries.add(ModBlocks.PAPER_ROLL);
                         entries.add(ModBlocks.GREEN_PAPER_ROLL);
                         entries.add(ModBlocks.GREEN_PAPER_ORE);
-
                         entries.add(ModItems.CARDBOARD);
                         entries.add(ModItems.CARDBOARD_ROLL);
                         entries.add(ModItems.GREEN_PAPER);
+                        entries.add(ModItems.GREEN_IRON_INGOT);
 
+                        // TOOLS
                         entries.add(ModItems.GREEN_IRON_SWORD);
                         entries.add(ModItems.GREEN_IRON_PICKAXE);
                         entries.add(ModItems.GREEN_IRON_SHOVEL);
@@ -33,11 +35,15 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.GREEN_SANDWICH);
 
+                        // ARMOR
                         entries.add(ModItems.GREEN_IRON_HELMET);
                         entries.add(ModItems.GREEN_IRON_CHESTPLATE);
                         entries.add(ModItems.GREEN_IRON_BOOTS);
                         entries.add(ModItems.GREEN_IRON_LEGGINGS);
+                        entries.add(ModItems.GREEN_IRON_HORSE_ARMOR);
+                        entries.add(ModItems.E_SMITHING_TEMPLATE);
 
+                        // BLOCKS
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.GREEN_IRON_LAMP);
                         entries.add(ModBlocks.GREEN_IRON_STAIRS);

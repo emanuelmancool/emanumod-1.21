@@ -1,0 +1,8 @@
+{
+  "asset_id": "emanumod:e",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.emanumod.e"
+  },
+  "template_item": "emanumod:e_armor_trim_smithing_template"
+}

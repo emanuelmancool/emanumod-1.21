@@ -164,5 +164,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
 
         offerWallRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.GREEN_IRON_WALL, ModItems.GREEN_IRON_INGOT);
+
+        offerSmithingTrimRecipe(recipeExporter, ModItems.E_SMITHING_TEMPLATE, Identifier.of(Emanumod.MOD_ID, "e"));
     }
 }

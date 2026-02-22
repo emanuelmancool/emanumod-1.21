@@ -16,6 +16,8 @@
   "item.emanumod.green_iron_chestplate": "Green Iron Chestplate",
   "item.emanumod.green_iron_boots": "Green Iron Boots",
   "item.emanumod.green_iron_leggings": "Green Iron Leggings",
+  "item.emanumod.green_iron_horse_armor": "Green Iron Horse Armor",
+  "item.emanumod.e_armor_trim_smithing_template": "E Smithing Template",
 
   "block.emanumod.paper_roll": "Paper Roll",
   "block.emanumod.green_paper_roll": "Green Paper Roll",
@@ -37,5 +39,9 @@
 
   "tooltip.emanumod.magic_block": "This block is §aMAGICALLY GREEN§r",
   "tooltip.emanumod.green_paper": "VERY, very §bversatile§r",
-  "tooltip.emanumod.green_lamp": "This block doesn't need redstone! pretty cool huh?"
+  "tooltip.emanumod.green_lamp": "This block doesn't need redstone! pretty cool huh?",
+  "tooltip.emanumod.horse_armor": "Why do you need this?",
+
+  "trim_material.emanumod.green_iron": "Green Iron Material",
+  "trim_pattern.emanumod.e": "§aE§r Armor Pattern"
 }

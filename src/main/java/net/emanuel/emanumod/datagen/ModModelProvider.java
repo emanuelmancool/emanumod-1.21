@@ -44,11 +44,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CARDBOARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_PAPER, Models.GENERATED);
         itemModelGenerator.register(ModItems.CARDBOARD_ROLL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        // itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_SANDWICH, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_IRON_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_IRON_NUGGET, Models.GENERATED);
 
+        // TOOLS
         itemModelGenerator.register(ModItems.GREEN_IRON_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_SHOVEL, Models.HANDHELD);
@@ -56,10 +57,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GREEN_IRON_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GREEN_IRON_HAMMER, Models.HANDHELD);
 
+        // ARMOR
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_BOOTS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GREEN_IRON_LEGGINGS));
+        itemModelGenerator.register(ModItems.GREEN_IRON_HORSE_ARMOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.E_SMITHING_TEMPLATE, Models.GENERATED);
 
     }
 

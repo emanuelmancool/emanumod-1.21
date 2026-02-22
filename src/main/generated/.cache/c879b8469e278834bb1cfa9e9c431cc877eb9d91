@@ -1,4 +1,4 @@
-// 1.21	2026-01-24T17:15:57.6742592	Emanumod/Model Definitions
+// 1.21	2026-02-21T23:07:48.3821044	Emanumod/Model Definitions
 b95be885f50901d29da10f24dcd89dd761661338 assets\emanumod\models\block\green_iron_door_top_right_open.json
 beb5d557da475bf6743b3a674225687146d75754 assets\emanumod\models\item\green_iron_helmet_diamond_trim.json
 53e6218774e2a58ec626e48ceb062ad9cac3b9b6 assets\emanumod\models\block\green_iron_door_top_left.json
@@ -99,10 +99,12 @@ d39bf75d57ef428829de15a9600579ea6f43d817 assets\emanumod\models\item\green_iron_
 1327c2da91b394678d95b048119dab320d9f275d assets\emanumod\models\block\green_iron_stairs.json
 122d7f7861a4e3959602351212a87e3d5f578952 assets\emanumod\models\item\green_iron_door.json
 8935a394433a966787448ceda6c11ad140a4cd61 assets\emanumod\models\item\green_iron_boots_diamond_trim.json
-87ff78b76235c1ed5d6e25b5b7951cf1e2117ab4 assets\emanumod\models\item\chisel.json
 2fa5de5507c5a4b565c57603a5a97133ca5e917d assets\emanumod\models\item\green_iron_chestplate_quartz_trim.json
+87ff78b76235c1ed5d6e25b5b7951cf1e2117ab4 assets\emanumod\models\item\chisel.json
 fb0ab8114b92620ac264975d142747e86878d36e assets\emanumod\models\item\green_iron_helmet_quartz_trim.json
 0317583c3d7176605f2de7dc694cc38385eb0d57 assets\emanumod\models\item\green_iron_hoe.json
+0cb456aecbc6576686312642c13f19ee53c5fce8 assets\emanumod\models\item\e_armor_trim_smithing_template.json
+290f1d6ddf060f4ac88f4a1ae1bdfe095641311d assets\emanumod\models\item\green_iron_horse_armor.json
 86e347f75b4c29277cb14c1de212096c5b23ef2c assets\emanumod\models\block\green_iron_fence_gate_wall.json
 209adea60679b1ae5a089b9fcc196656d8dc52ee assets\emanumod\models\item\green_iron_block.json
 101f1e050ae9994c1aa681b564e18a841fdf4188 assets\emanumod\models\item\cardboard_roll.json

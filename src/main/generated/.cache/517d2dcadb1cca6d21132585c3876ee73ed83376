@@ -1,6 +1,6 @@
-// 1.21	2026-01-24T17:15:57.6802609	Emanumod/Tags for minecraft:block
-b43c8d3b5b64a5a5dafe533226545afd38cc291d data\minecraft\tags\block\fence_gates.json
+// 1.21	2026-02-21T23:07:48.3871046	Emanumod/Tags for minecraft:block
 cd48bae96515b1622499d07422d136145f8eee26 data\minecraft\tags\block\needs_diamond_tool.json
+b43c8d3b5b64a5a5dafe533226545afd38cc291d data\minecraft\tags\block\fence_gates.json
 1495c964a2466ec4282b3c83ee120ea2aa7c57c2 data\minecraft\tags\block\walls.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\emanumod\tags\block\needs_green_iron_tool.json
 7ce010e8e29f436c8d922f4536ee1319dc684abc data\minecraft\tags\block\mineable\pickaxe.json

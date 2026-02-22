@@ -9,6 +9,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class ModItems {
 
-    public static final Item GREEN_PAPER = registerItem("green_paper", new Item(new Item.Settings()){
+    public static final Item GREEN_PAPER = registerItem("green_paper", new Item(new Item.Settings()) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.emanumod.green_paper"));
@@ -65,6 +66,18 @@ public class ModItems {
     public static final Item GREEN_IRON_LEGGINGS = registerItem("green_iron_leggings",
             new ArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+
+    public static final Item GREEN_IRON_HORSE_ARMOR = registerItem("green_iron_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.GREEN_IRON_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)) {
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.emanumod.horse_armor"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            });
+
+    public static final Item E_SMITHING_TEMPLATE = registerItem("e_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(Emanumod.MOD_ID, "e"), FeatureFlags.VANILLA));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Emanumod.MOD_ID, name), item);

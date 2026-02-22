@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "emanumod:item/chisel"
+    "layer0": "emanumod:item/chisel_used"
   }
 }
