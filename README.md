@@ -7,11 +7,16 @@ lastly, thank you to **KAUPENJOE** and his 1.21 fabric modding series!!
 
 # BUILDING THE MOD
 
-okay ill be honest, I didn't do this myself yet, but, I think all that is needed is:
-
 1. Clone the repo
 2. Open in IntelliJ IDEA (or another Java IDE)
 3. Open terminal in project root and run: `./gradlew build`
 4. Find your mod jar in `build/libs/`
 
-I haven't done it myself, so if someone is actually reading this and tries to build it, and it doesn't work, I think you can submit an issue.
+## Credits / Music
+
+- Music used in this mod:
+
+  **"Sneaky Snitch"** composed by Kevin MacLeod  
+  [Incompetech.com](https://incompetech.com)  
+  Licensed under Creative Commons: By Attribution 3.0  
+  [License link](http://creativecommons.org/licenses/by/3.0/)

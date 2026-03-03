@@ -56,6 +56,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GREEN_IRON_PRESSURE_PLATE);
                         entries.add(ModBlocks.GREEN_IRON_WALL);
                         entries.add(ModBlocks.GREEN_IRON_BLOCK);
+
+                        // ITEMS
+                        entries.add(ModItems.SNEAKY_SNITCH_MUSIC_DISC);
                     }).build());
 
 

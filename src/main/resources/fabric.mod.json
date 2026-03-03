@@ -1,16 +1,17 @@
 {
-	"schemaVersion": 1,
-	"id": "emanumod",
-	"version": "${version}",
-	"name": "Emanumod",
-	"description": "My first mod!",
-	"authors": [
-		"Emanuel"
-	],
-	"contact": {
-		"homepage": "https://google.com/",
-		"sources": "https://https://github.com/emanuelmancool/emanumod-1.21"
-	},
+  "schemaVersion": 1,
+  "id": "emanumod",
+  "version": "${version}",
+  "name": "Emanumod",
+  "description": "My first mod!",
+  "authors": [
+    "Emanuel"
+  ],
+  "credits": "Music by Kevin MacLeod (https://incompetech.com) licensed under Creative Commons: By Attribution 3.0",
+  "contact": {
+    "homepage": "https://google.com/",
+    "sources": "https://github.com/emanuelmancool/emanumod-1.21"
+  },
 	"license": "CC0-1.0",
 	"icon": "assets/emanumod/icon.png",
 	"environment": "*",

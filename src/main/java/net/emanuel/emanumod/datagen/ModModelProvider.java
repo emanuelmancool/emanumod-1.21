@@ -48,6 +48,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GREEN_SANDWICH, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_IRON_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_IRON_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SNEAKY_SNITCH_MUSIC_DISC, Models.GENERATED);
 
         // TOOLS
         itemModelGenerator.register(ModItems.GREEN_IRON_SWORD, Models.HANDHELD);

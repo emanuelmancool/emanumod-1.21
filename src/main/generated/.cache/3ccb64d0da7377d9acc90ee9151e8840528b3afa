@@ -1,4 +1,4 @@
-// 1.21	2026-02-21T23:07:48.3861045	Emanumod/Recipes
+// 1.21	2026-03-03T21:37:02.8348275	Emanumod/Recipes
 8ec81bf44a14229e31b8a721d41fd345a6a8d2ac data\emanumod\recipe\cardboard.json
 b4645a7d30a2ab34ce17d85afffdf15d879ccbe7 data\emanumod\advancement\recipes\misc\green_iron_ingot_from_nugget.json
 0bbb13fb4efe855a6d3fbeff3abecf5930602a85 data\emanumod\advancement\recipes\misc\paper_roll.json
@@ -28,6 +28,7 @@ a108309c68651c58f6145b2496686022eb090910 data\emanumod\recipe\green_iron_trapdoo
 fb29bdbcbdab405a3303d55814448322774ae56f data\emanumod\advancement\recipes\misc\green_paper_roll.json
 50d370ff6c535cbe1c4023b1eb3155f6d228430b data\emanumod\advancement\recipes\redstone\green_iron_trapdoor.json
 8824dd092a76161022e15534930bac73bd49f96a data\emanumod\advancement\recipes\misc\green_iron_wall.json
+ca4282bf0cd7c017586a5f1b68e7988d6a0a0167 data\emanumod\advancement\recipes\misc\sneaky_snitch_music_disc.json
 3f45e12ba6f5e2075fd8b45a7dfc9a11a6761f2f data\emanumod\advancement\recipes\misc\green_iron_slab.json
 93f964c5d5d8e3e74fec37c14d2e97ced9980a9f data\emanumod\advancement\recipes\misc\green_iron_lamp.json
 c650c8d06bc0fdcbaed87fba5492122b0c1123a2 data\emanumod\recipe\green_iron_fence_gate.json
@@ -38,6 +39,7 @@ c650c8d06bc0fdcbaed87fba5492122b0c1123a2 data\emanumod\recipe\green_iron_fence_g
 9388c0515d7e8b63e3ee6b15605e8c9547075160 data\emanumod\recipe\green_iron_nugget.json
 c0e01db6c5ae1fe0e21f2ca392ce0d4ce9b120f4 data\emanumod\advancement\recipes\misc\green_iron_block.json
 4ca094803c78226cf72a7e0548ebbf5dda2edd52 data\emanumod\advancement\recipes\decorations\green_iron_fence.json
+793b5dcc95dff832d502530fc26d234fe481eacd data\emanumod\recipe\sneaky_snitch_music_disc.json
 76d2a9d18ece5323aaff148bdbda96bd95f542e2 data\emanumod\advancement\recipes\misc\green_sandwich.json
 6c9a7b885fe0e4d2c324d8d1f06dd462e6b78fc5 data\emanumod\advancement\recipes\misc\chisel.json
 a15793fd8a0bc730725dc0ae3e372aa75ff0f265 data\emanumod\recipe\green_paper_roll_alt.json

@@ -3,6 +3,7 @@ package net.emanuel.emanumod.block;
 import net.emanuel.emanumod.Emanumod;
 import net.emanuel.emanumod.block.custom.GreenIronLampBlock;
 import net.emanuel.emanumod.block.custom.MagicBlock;
+import net.emanuel.emanumod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -27,7 +28,7 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
-            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block GREEN_IRON_BLOCK = registerBlock("green_iron_block",
             new Block(AbstractBlock.Settings.create().strength(6F, 7F).requiresTool().sounds(BlockSoundGroup.METAL)));

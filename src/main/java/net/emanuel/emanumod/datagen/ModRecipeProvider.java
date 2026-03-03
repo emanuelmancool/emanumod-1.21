@@ -166,5 +166,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.GREEN_IRON_WALL, ModItems.GREEN_IRON_INGOT);
 
         offerSmithingTrimRecipe(recipeExporter, ModItems.E_SMITHING_TEMPLATE, Identifier.of(Emanumod.MOD_ID, "e"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SNEAKY_SNITCH_MUSIC_DISC)
+                .pattern(" # ")
+                .pattern("#@#")
+                .pattern(" # ")
+                .input('#', ModItems.GREEN_PAPER)
+                .input('@', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(ModItems.GREEN_PAPER), conditionsFromItem(ModItems.GREEN_PAPER))
+                .offerTo(recipeExporter);
     }
 }

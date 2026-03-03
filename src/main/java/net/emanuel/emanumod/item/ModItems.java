@@ -4,6 +4,7 @@ import net.emanuel.emanumod.Emanumod;
 import net.emanuel.emanumod.item.custom.ChiselItem;
 import net.emanuel.emanumod.item.custom.HammerItem;
 import net.emanuel.emanumod.item.custom.ModArmorItem;
+import net.emanuel.emanumod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -75,6 +76,9 @@ public class ModItems {
                     super.appendTooltip(stack, context, tooltip, type);
                 }
             });
+
+    public static final Item SNEAKY_SNITCH_MUSIC_DISC = registerItem("sneaky_snitch_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.SNEAKY_SNITCH_KEY).maxCount(1)));
 
     public static final Item GREEN_BOW = registerItem("green_bow",
             new BowItem(new Item.Settings().maxDamage(684)));
