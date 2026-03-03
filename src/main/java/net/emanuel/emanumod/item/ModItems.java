@@ -76,6 +76,9 @@ public class ModItems {
                 }
             });
 
+    public static final Item GREEN_BOW = registerItem("green_bow",
+            new BowItem(new Item.Settings().maxDamage(684)));
+
     public static final Item E_SMITHING_TEMPLATE = registerItem("e_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(Emanumod.MOD_ID, "e"), FeatureFlags.VANILLA));
 

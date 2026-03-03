@@ -24,8 +24,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CARDBOARD_ROLL);
                         entries.add(ModItems.GREEN_PAPER);
                         entries.add(ModItems.GREEN_IRON_INGOT);
+                        entries.add(ModItems.GREEN_SANDWICH);
 
-                        // TOOLS
+                        // TOOLS & WEAPONS
                         entries.add(ModItems.GREEN_IRON_SWORD);
                         entries.add(ModItems.GREEN_IRON_PICKAXE);
                         entries.add(ModItems.GREEN_IRON_SHOVEL);
@@ -33,7 +34,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_IRON_HOE);
                         entries.add(ModItems.GREEN_IRON_HAMMER);
                         entries.add(ModItems.CHISEL);
-                        entries.add(ModItems.GREEN_SANDWICH);
+                        entries.add(ModItems.GREEN_BOW);
 
                         // ARMOR
                         entries.add(ModItems.GREEN_IRON_HELMET);

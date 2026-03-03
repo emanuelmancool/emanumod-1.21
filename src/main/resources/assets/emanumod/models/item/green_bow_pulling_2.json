@@ -1,0 +1,6 @@
+{
+    "parent": "emanumod:item/green_bow",
+    "textures": {
+        "layer0": "emanumod:item/green_bow_pulling_2"
+    }
+}
