@@ -12,10 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEffects {
     public static final RegistryEntry<StatusEffect> GREENY = registerStatusEffect("greeny",
-            new GreenyEffect(StatusEffectCategory.NEUTRAL, 0x00ff21)
-                    .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
-                            Identifier.of(Emanumod.MOD_ID, "greeny"), -0.25f,
-            EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+            new GreenyEffect(StatusEffectCategory.NEUTRAL, 0x00ff21));
 
 
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect) {
