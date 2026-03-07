@@ -35,6 +35,5 @@ public class ModSounds {
 
     public static void registerSounds() {
         Emanumod.LOGGER.info("Registering Mod Sounds for " + Emanumod.MOD_ID);
-        Emanumod.LOGGER.info("SNEAKY_SNITCH_KEY = " + SNEAKY_SNITCH_KEY.getValue());
     }
 }

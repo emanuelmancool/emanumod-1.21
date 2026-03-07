@@ -1,0 +1,11 @@
+{
+  "asset_id": "emanumod:ominous_green_painting",
+  "height": 2,
+  "width": 2,
+  "author": {
+    "translate": "painting.emanumod.ominous_green_painting.author"
+  },
+  "title": {
+    "translate": "painting.emanumod.ominous_green_painting.title"
+  }
+}

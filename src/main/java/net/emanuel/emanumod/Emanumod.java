@@ -2,18 +2,22 @@ package net.emanuel.emanumod;
 
 import net.emanuel.emanumod.block.ModBlocks;
 import net.emanuel.emanumod.component.ModDataComponentTypes;
+import net.emanuel.emanumod.effect.ModEffects;
 import net.emanuel.emanumod.item.ModItemGroups;
 import net.emanuel.emanumod.item.ModItems;
+import net.emanuel.emanumod.potion.ModPotions;
 import net.emanuel.emanumod.sound.ModSounds;
 import net.emanuel.emanumod.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potions;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import org.slf4j.Logger;
@@ -31,6 +35,8 @@ public class Emanumod implements ModInitializer {
         ModBlocks.registerModBlocks();
         ModDataComponentTypes.registerDataComponentTypes();
         ModSounds.registerSounds();
+        ModEffects.registerEffects();
+        ModPotions.registerPotions();
 
         FuelRegistry.INSTANCE.add(ModItems.GREEN_PAPER, 5000);
 
@@ -51,6 +57,10 @@ public class Emanumod implements ModInitializer {
             }
 
             return ActionResult.PASS;
+        });
+
+        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+            builder.registerPotionRecipe(Potions.AWKWARD, ModItems.GREEN_PAPER, ModPotions.GREENY_POTION);
         });
     }
 }
