@@ -59,6 +59,7 @@ public class ModItemGroups {
 
                         // ITEMS
                         entries.add(ModItems.SNEAKY_SNITCH_MUSIC_DISC);
+                        entries.add(ModItems.GREEN_PAPER_SEEDS);
                     }).build());
 
 

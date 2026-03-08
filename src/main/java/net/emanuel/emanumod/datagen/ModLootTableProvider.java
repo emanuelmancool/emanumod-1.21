@@ -1,6 +1,7 @@
 package net.emanuel.emanumod.datagen;
 
 import net.emanuel.emanumod.block.ModBlocks;
+import net.emanuel.emanumod.block.custom.GreenPaperCropBlock;
 import net.emanuel.emanumod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
@@ -8,10 +9,12 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.ExplosionDecayLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -43,6 +46,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GREEN_IRON_SLAB, slabDrops(ModBlocks.GREEN_IRON_SLAB));
         addDrop(ModBlocks.GREEN_IRON_TRAPDOOR);
         addDrop(ModBlocks.GREEN_IRON_LAMP);
+
+        BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GREEN_PAPER_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(GreenPaperCropBlock.AGE, GreenPaperCropBlock.MAX_AGE));
+        this.addDrop(ModBlocks.GREEN_PAPER_CROP, LootTable.builder()
+                .pool(LootPool.builder()
+                        .with(ItemEntry.builder(ModItems.GREEN_PAPER)
+                                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(2))))
+                        .conditionally(builder2)));
     }
 
 

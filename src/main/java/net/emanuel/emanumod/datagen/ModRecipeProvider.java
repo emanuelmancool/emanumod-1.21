@@ -176,5 +176,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .criterion(hasItem(ModItems.GREEN_PAPER), conditionsFromItem(ModItems.GREEN_PAPER))
                 .offerTo(recipeExporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GREEN_PAPER_SEEDS, 1)
+                .input(ModItems.GREEN_PAPER)
+                .criterion(hasItem(ModItems.GREEN_PAPER), conditionsFromItem(ModItems.GREEN_PAPER))
+                .offerTo(recipeExporter);
     }
 }

@@ -26,8 +26,7 @@ public class MagicBlock extends Block {
     }
 
     @Override
-    protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player,
-                                 BlockHitResult hit) {
+    protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         world.playSound(player, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, SoundCategory.BLOCKS, 1f, 1f);
         return ActionResult.SUCCESS;
     }
@@ -36,7 +35,11 @@ public class MagicBlock extends Block {
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
             if(itemEntity.getStack().getItem() == ModItems.GREEN_PAPER) {
-                itemEntity.setStack(new ItemStack(Items.DIAMOND, itemEntity.getStack().getCount()));
+                int count = itemEntity.getStack().getCount();
+                if(itemEntity.getStack().hasEnchantments()) {
+                    count *= 2;
+                }
+                itemEntity.setStack(new ItemStack(Items.DIAMOND, count));
             } else if (itemEntity.getStack().getItem() == Items.IRON_INGOT) {
                 itemEntity.setStack(new ItemStack(ModItems.GREEN_IRON_INGOT, itemEntity.getStack().getCount()));
             }

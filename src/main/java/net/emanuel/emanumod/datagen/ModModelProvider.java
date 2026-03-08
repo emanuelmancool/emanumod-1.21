@@ -3,6 +3,7 @@ package net.emanuel.emanumod.datagen;
 import net.emanuel.emanumod.Emanumod;
 import net.emanuel.emanumod.block.ModBlocks;
 import net.emanuel.emanumod.block.custom.GreenIronLampBlock;
+import net.emanuel.emanumod.block.custom.GreenPaperCropBlock;
 import net.emanuel.emanumod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -37,6 +38,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.GREEN_IRON_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.GREEN_IRON_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(GreenIronLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.GREEN_PAPER_CROP, GreenPaperCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
     }
 
     @Override

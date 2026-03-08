@@ -1,6 +1,7 @@
 package net.emanuel.emanumod.item;
 
 import net.emanuel.emanumod.Emanumod;
+import net.emanuel.emanumod.block.ModBlocks;
 import net.emanuel.emanumod.item.custom.ChiselItem;
 import net.emanuel.emanumod.item.custom.HammerItem;
 import net.emanuel.emanumod.item.custom.ModArmorItem;
@@ -23,6 +24,11 @@ public class ModItems {
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.emanumod.green_paper"));
             super.appendTooltip(stack, context, tooltip, type);
+        }
+
+        @Override
+        public int getEnchantability() {
+            return 10;
         }
     });
 
@@ -85,6 +91,9 @@ public class ModItems {
 
     public static final Item E_SMITHING_TEMPLATE = registerItem("e_armor_trim_smithing_template",
             SmithingTemplateItem.of(Identifier.of(Emanumod.MOD_ID, "e"), FeatureFlags.VANILLA));
+
+    public static final Item GREEN_PAPER_SEEDS = registerItem("green_paper_seeds",
+            new AliasedBlockItem(ModBlocks.GREEN_PAPER_CROP, new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Emanumod.MOD_ID, name), item);

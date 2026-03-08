@@ -11,6 +11,7 @@ public class EmanumodClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_IRON_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_IRON_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_PAPER_CROP, RenderLayer.getCutout());
 
         ModModelPredicates.registerModelPredicates();
     }

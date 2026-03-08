@@ -2,10 +2,12 @@ package net.emanuel.emanumod.block;
 
 import net.emanuel.emanumod.Emanumod;
 import net.emanuel.emanumod.block.custom.GreenIronLampBlock;
+import net.emanuel.emanumod.block.custom.GreenPaperCropBlock;
 import net.emanuel.emanumod.block.custom.MagicBlock;
 import net.emanuel.emanumod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -59,8 +61,16 @@ public class ModBlocks {
             new GreenIronLampBlock(AbstractBlock.Settings.create()
                     .strength(1f).requiresTool().luminance(state -> state.get(GreenIronLampBlock.CLICKED) ? 15 : 0)));
 
+    public static final Block GREEN_PAPER_CROP = registerBlockWithoutBlockItem("green_paper_crop",
+            new GreenPaperCropBlock(AbstractBlock.Settings.create().noCollision()
+                    .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(Emanumod.MOD_ID, name), block);
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(Emanumod.MOD_ID, name), block);
     }
 

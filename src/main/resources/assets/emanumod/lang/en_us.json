@@ -25,6 +25,7 @@
   "item.minecraft.splash_potion.effect.greeny_potion": "Greenifier Splash Potion",
   "item.minecraft.lingering_potion.effect.greeny_potion": "Greenifier Lingering Potion",
   "item.minecraft.tipped_arrow.effect.greeny_potion": "Greenifier Tipped Arrow",
+  "item.emanumod.green_paper_seeds": "Green Paper Seeds",
 
   "block.emanumod.paper_roll": "Paper Roll",
   "block.emanumod.green_paper_roll": "Green Paper Roll",
@@ -41,6 +42,7 @@
   "block.emanumod.green_iron_pressure_plate": "Green Iron Pressure Plate",
   "block.emanumod.green_iron_wall": "Green Iron Wall",
   "block.emanumod.green_iron_lamp": "Green Iron Lamp",
+  "block.emanumod.green_paper_crop": "Green Paper Crop",
 
   "itemgroup.emanumod.cardboard_items": "Green Items And Blocks",
 
@@ -58,5 +60,8 @@
   "effect.emanumod.greeny": "Greenifier",
 
   "painting.emanumod.ominous_green_painting.title": "Ominous Green",
-  "painting.emanumod.ominous_green_painting.author": "Green Paper"
+  "painting.emanumod.ominous_green_painting.author": "Green Paper",
+
+  "enchantment.emanumod.lighting_striker": "Lighting Striker",
+  "enchantment.emanumod.double_weight": "Double Weight"
 }

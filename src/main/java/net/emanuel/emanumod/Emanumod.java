@@ -3,6 +3,7 @@ package net.emanuel.emanumod;
 import net.emanuel.emanumod.block.ModBlocks;
 import net.emanuel.emanumod.component.ModDataComponentTypes;
 import net.emanuel.emanumod.effect.ModEffects;
+import net.emanuel.emanumod.enchantment.ModEnchantmentEffects;
 import net.emanuel.emanumod.item.ModItemGroups;
 import net.emanuel.emanumod.item.ModItems;
 import net.emanuel.emanumod.potion.ModPotions;
@@ -12,6 +13,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Block;
@@ -37,6 +39,7 @@ public class Emanumod implements ModInitializer {
         ModSounds.registerSounds();
         ModEffects.registerEffects();
         ModPotions.registerPotions();
+        ModEnchantmentEffects.registerEnchantmentEffects();
 
         FuelRegistry.INSTANCE.add(ModItems.GREEN_PAPER, 5000);
 
@@ -62,5 +65,7 @@ public class Emanumod implements ModInitializer {
         FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
             builder.registerPotionRecipe(Potions.AWKWARD, ModItems.GREEN_PAPER, ModPotions.GREENY_POTION);
         });
+
+        CompostingChanceRegistry.INSTANCE.add(ModItems.GREEN_PAPER_SEEDS, 0.8f);
     }
 }

@@ -1,6 +1,7 @@
 package net.emanuel.emanumod;
 
 import net.emanuel.emanumod.datagen.*;
+import net.emanuel.emanumod.enchantment.ModEnchantments;
 import net.emanuel.emanumod.trim.ModTrimMaterials;
 import net.emanuel.emanumod.trim.ModTrimPatterns;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -25,5 +26,6 @@ public class EmanumodDataGenerator implements DataGeneratorEntrypoint {
     public void buildRegistry(RegistryBuilder registryBuilder) {
         registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
         registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
     }
 }
